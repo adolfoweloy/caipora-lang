@@ -8,7 +8,7 @@ import static com.caiporalang.lexic.state.States.*;
 
 class InitialState extends ScannerState {
 
-    public InitialState(ScannerContext context) {
+    InitialState(ScannerContext context) {
         super(context, "");
     }
 

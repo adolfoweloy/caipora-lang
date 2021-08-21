@@ -9,7 +9,7 @@ import static com.caiporalang.lexic.state.States.createIdentifierState;
 
 class IdentifierState extends ScannerState {
 
-    public IdentifierState(ScannerContext context, String term) {
+    IdentifierState(ScannerContext context, String term) {
         super(context, term);
     }
 

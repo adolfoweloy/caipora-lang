@@ -6,7 +6,7 @@ import com.caiporalang.lexic.TokenType;
 import com.caiporalang.lexic.exception.InvalidOperator;
 
 class OperatorState extends ScannerState {
-    public OperatorState(ScannerContext context, String term) {
+    OperatorState(ScannerContext context, String term) {
         super(context, term);
     }
 

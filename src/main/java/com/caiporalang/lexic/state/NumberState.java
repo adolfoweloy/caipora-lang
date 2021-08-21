@@ -10,7 +10,7 @@ import static com.caiporalang.lexic.state.States.createRealNumberState;
 
 class NumberState extends ScannerState {
 
-    public NumberState(ScannerContext context, String term) {
+    NumberState(ScannerContext context, String term) {
         super(context, term);
     }
 

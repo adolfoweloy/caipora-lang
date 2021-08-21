@@ -3,9 +3,9 @@ package com.caiporalang.lexic;
 import java.io.IOException;
 import java.net.URL;
 
-public class LexicalAnalyzer {
+public class Lexer {
     public static void main(String[] args) throws IOException {
-        new LexicalAnalyzer().start();
+        new Lexer().start();
     }
 
     private void start() throws IOException {
