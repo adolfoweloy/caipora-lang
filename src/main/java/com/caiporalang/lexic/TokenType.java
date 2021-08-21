@@ -6,7 +6,6 @@ public enum TokenType {
     NUMBER(2),
     PUNCTUATION(3),
     OPERATOR(4)
-
     ;
 
     private final int id;

@@ -2,7 +2,7 @@ package com.caiporalang.lexic;
 
 public record Token(TokenType tokenType, String value) {
 
-    static Token getEOF() {
+    public static Token getEOF() {
         return new Token(TokenType.EOF, "eof");
     }
 
